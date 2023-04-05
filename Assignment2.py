@@ -60,7 +60,7 @@ def pop_groupedbar(population):
     population.plot(kind = 'bar', width = 0.9, rot = 45)
     plt.title('Population Growth Over Years', **font1)
     plt.legend(loc ='upper right')
-    plt.grid(zorder = 0)
+    plt.grid(zorder=0)
     plt.rcParams['figure.figsize'] = (12, 8)
     plt.xlabel('Countries', **font2)
     plt.ylabel('Population', **font2)
