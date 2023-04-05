@@ -142,7 +142,7 @@ def df_summary(forest_area, population, renew_energy_consumption,
                co2_emissions, total_green_house_emission):
     '''Function provides the summary statistics using the pandas describe 
     function for all the dataframes
-    Arguments of the function are all the dataframes used in the project'''
+    Arguments of the function are all the dataframes used in this project'''
     print('\n \n \t  SUMMARY STATISTICS OF ALL DATA : ')
     print('Summary statistis of Forest Area :  ')
     print(forest_area.describe())
